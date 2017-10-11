@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Classifier</title>
+    <link rel="stylesheet" href="static/css/app.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+    <link href="static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+    <!-- Optimizing for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+<body>
+<!-- header and presentation -->
+<div class="row">
+    <div class="container app-presentation">
+        <h3 class="center-align">Upload Image</h3>
+    </div>
+</div>
+<!-- login panel -->
+<div class="row">
+    <div class="col s12 m6 l4 offset-m3 offset-l4">
+        <div class="card-panel">
+            <form class="form" method=POST action="{{ url_for('submit') }}" role="form" enctype="multipart/form-data">
+                <div class="row">
+                    <div class="file-field input-field col s12">
+                        <div class="btn">
+                            <span>File</span>
+                            <input type="file" name="song_upload">
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text">
+                        </div>
+                    </div>
+                    <div class="input-field col s12 center">
+                        <button class="btn waves-effect waves-light" type="submit" name="action">
+                            <i class="mdi-content-send"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="col s12">
+                    <div class="fixed-action-btn">
+                        <a class="btn-floating btn-large blue-grey">
+                            <i class="large material-icons">add</i>
+                        </a>
+                        <ul>
+                            <li><a class="btn-floating teal" href="/add_auth"><i
+                                    class="material-icons">person_pin</i></a>
+                            </li>
+                            <li><a class="btn-floating blue" href="/add_sub"><i
+                                    class="material-icons">receipt</i></a></li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        </form>
+    </div>
+</div>
+<div class="input-field col s12 center">
+    <a href="/">
+        <button class="btn waves-effect waves-light" name="action">
+            Go Back
+        </button>
+    </a>
+</div>
+<!-- importing scripts -->
+<script>
+    $(document).ready(function () {
+        $('select').material_select();
+    });
+</script>
+<script>
+    $('.chips').material_chip();
+</script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+</body>
+</html>
+
