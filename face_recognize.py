@@ -1,12 +1,30 @@
-import tensorflow as tf
 import os
+import sys
+import pickle
+import time
+import cv2
+import openface
+
+import numpy as np
+from sklearn.mixture import GMM
+
+imgDim = 96
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
-GRAPH_FOLDER = os.path.join(APP_ROOT, 'graphs')
+MODELS_ROOT = os.path.join(APP_ROOT, 'models')
+
+network_model = os.path.join(MODELS_ROOT, 'nn4.small2.v1.t7')
+dlibFaceModel = os.path.join(MODELS_ROOT, 'shape_predictor_68_face_landmarks.dat')
+classifier_model = os.path.join(MODELS_ROOT, 'classifier.pkl')
+
+align = openface.AlignDlib(dlibFaceModel)
+net = openface.TorchNeuralNet(network_model, imgDim=96)
+
+invalid_samples = []
 
 
 class FaceRecognize:
-    def getNames(self, image_list):
+    """def getNames(self, image_list):
         image_list = list(image_list)
         names = []
         label_lines = [line.rstrip() for line
@@ -35,4 +53,74 @@ class FaceRecognize:
                     score = predictions[0][node_id]
                     print('%s (score = %.5f)' % (human_string, score))
                 names.append(object_list[0])
-        return names
+        return names"""
+
+    def getRep(self, imgPath, multiple=False):
+        start = time.time()
+        bgrImg = cv2.imread(imgPath)
+        if bgrImg is None:
+            raise Exception("Unable to load image: {}".format(imgPath))
+
+        rgbImg = cv2.cvtColor(bgrImg, cv2.COLOR_BGR2RGB)
+
+        if multiple:
+            bbs = align.getAllFaceBoundingBoxes(rgbImg)
+        else:
+            bb1 = align.getLargestFaceBoundingBox(rgbImg)
+            bbs = [bb1]
+        if len(bbs) == 0 or (not multiple and bb1 is None):
+            # raise Exception("Unable to find a face: {}".format(imgPath))
+            invalid_samples.append(imgPath)
+            pass
+
+        reps = []
+        for bb in bbs:
+            start = time.time()
+            alignedFace = align.align(96, rgbImg, bb, landmarkIndices=openface.AlignDlib.OUTER_EYES_AND_NOSE)
+            if alignedFace is None:
+                invalid_samples.append(imgPath)
+                pass
+                # raise Exception("Unable to align image: {}".format(imgPath))
+            if imgPath not in invalid_samples:
+                start = time.time()
+                rep = net.forward(alignedFace)
+                reps.append((bb.center().x, rep))
+
+        sreps = sorted(reps, key=lambda x: x[0])
+        return sreps
+
+    def getNames(self, image_list, multiple=False):
+        with open(classifier_model, 'rb') as f:
+            if sys.version_info[0] < 3:
+                (le, clf) = pickle.load(f)
+            else:
+                (le, clf) = pickle.load(f, encoding='latin1')
+
+        names = []
+        pics = []
+        for img in image_list:
+            if img not in invalid_samples:
+                print("\n=== {} ===".format(img))
+                reps = self.getRep(img, multiple)
+                if len(reps) > 1:
+                    print("List of faces in image from left to right")
+                for r in reps:
+                    rep = r[1].reshape(1, -1)
+                    bbx = r[0]
+                    predictions = clf.predict_proba(rep).ravel()
+                    maxI = np.argmax(predictions)
+                    person = le.inverse_transform(maxI)
+                    confidence = predictions[maxI]
+                    name = person.decode('utf-8')
+                    if confidence > 0.65 and name not in names:
+                        names.append(name)
+                        pics.append(os.path.basename(img))
+                    if multiple:
+                        print("Predict {} @ x={} with {:.2f} confidence.".format(person.decode('utf-8'), bbx,
+                                                                                 confidence))
+                    else:
+                        print("Predict {} with {:.2f} confidence.".format(person.decode('utf-8'), confidence))
+                    if isinstance(clf, GMM):
+                        dist = np.linalg.norm(rep - clf.means_[maxI])
+                        print("  + Distance from the mean: {}".format(dist))
+        return names, pics
