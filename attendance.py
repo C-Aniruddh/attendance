@@ -59,9 +59,15 @@ def submit():
                     name = att.getName(sap)
                     names.append(name)
 
+                absentlist = range(0, len(absent), 1)
+                absent_names = []
+                for absent_sap in absent:
+                    absentee = att.getName(absent_sap)
+                    absent_names.append(absentee)
+
                 # return json.dumps({'present': present, 'absent': absent})
                 return render_template('list.html', saplist=saplist, sap_ids=sapIDs, images=pics, names=names,
-                                       absent=absent)
+                                       absent=absent, absent_name=absent_names, absent_sap=absent, absentlist=absentlist)
             else:
                 return "Invalid file format"
         return render_template('upload.html')

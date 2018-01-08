@@ -2,474 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="706f734f-c685-41fa-b13b-6f3ef7c6f7fb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/attendance.iml" afterPath="$PROJECT_DIR$/.idea/attendance.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/uploads/MIL_1768.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/uploads/MIL_1769.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/attendance.py" afterPath="$PROJECT_DIR$/attendance.py" />
-      <change beforePath="$PROJECT_DIR$/face_helper.py" afterPath="$PROJECT_DIR$/face_helper.py" />
-      <change beforePath="$PROJECT_DIR$/face_recognize.py" afterPath="$PROJECT_DIR$/face_recognize.py" />
-      <change beforePath="$PROJECT_DIR$/graphs/retrained_graph.pb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/graphs/retrained_labels.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/haarcascade_eye.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/haarcascade_frontalface_default.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/helper/attendance.py" afterPath="$PROJECT_DIR$/helper/attendance.py" />
-      <change beforePath="$PROJECT_DIR$/helper/db_populate.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_100.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_108.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_112.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_116.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_120.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_124.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_136.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_156.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_160.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_164.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_168.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_172.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_176.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_180.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_184.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_188.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_192.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_196.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_200.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_204.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_208.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_212.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_216.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_220.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_224.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_228.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_264.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_268.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_272.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_276.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_284.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_288.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/akshita/face_96.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_104.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_108.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_112.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_116.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_124.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_132.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_136.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_140.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_144.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_148.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_152.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_156.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_160.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_164.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_168.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_172.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_176.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_180.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_184.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_188.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_192.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_196.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_200.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_204.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_208.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_212.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_216.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_220.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_44.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_80.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_88.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/face_96.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00006.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00007.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00008.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00009.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00010.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00011.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00012.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00013.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00014.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00015.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00016.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00017.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00018.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00019.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00020.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00021.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00022.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00023.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00024.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00025.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00026.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00027.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00028.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00029.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00030.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00031.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00032.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00033.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00034.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00035.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00036.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00037.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00038.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00039.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00040.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00041.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00042.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00043.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00044.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00045.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00046.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00047.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00048.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00049.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00050.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00051.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00052.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00053.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00054.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00055.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00056.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00057.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00058.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00059.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00060.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00061.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00062.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00063.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00064.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00065.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00066.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00067.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00068.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00069.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00070.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00071.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00072.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00073.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00074.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00075.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00076.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00077.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00078.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00079.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00080.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00081.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00082.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00083.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00084.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00085.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00086.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00087.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00088.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00089.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00090.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00091.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00092.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00093.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00094.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00095.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00096.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00097.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00098.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00099.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00100.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00101.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00102.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00103.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00104.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00105.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00106.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00107.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00108.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00109.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00110.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00111.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00112.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00113.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00114.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00115.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00116.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00117.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00118.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00119.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00120.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00121.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00122.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00123.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00124.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00125.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00126.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00127.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00129.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00130.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00131.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00132.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00133.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00134.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00135.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00136.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00137.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00138.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00139.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00140.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00141.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00142.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00143.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00144.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00145.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00146.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00147.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00148.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00149.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00150.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00151.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00152.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00153.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00154.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00155.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00156.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00157.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00158.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00159.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00160.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00161.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00162.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00163.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00164.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00165.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00166.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00167.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00168.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00169.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00170.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00171.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00172.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00173.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00174.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00175.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00176.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00177.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00178.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00179.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00180.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00181.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00182.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00183.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00184.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00185.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00186.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00187.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00188.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00189.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00190.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00191.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00192.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00193.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00194.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00195.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00196.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00197.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00198.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00199.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00200.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00201.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00202.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00203.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00204.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00205.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00206.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00207.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00208.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00209.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00210.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00211.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00212.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00213.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00214.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00215.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00216.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00217.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00218.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00219.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00220.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00221.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00222.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00223.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00224.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00225.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00226.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00227.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/aniruddh/pic00228.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_100.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_104.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_120.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_124.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_132.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_140.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_144.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_152.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_164.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_172.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_176.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_180.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_184.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_188.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_192.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_196.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_200.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_204.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_208.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_212.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_216.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_220.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_224.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_228.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_232.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_240.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_244.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_248.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_252.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_260.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_264.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_332.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_92.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/shreyas/face_96.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_148.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_156.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_160.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_164.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_168.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_176.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_192.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_196.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_200.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_204.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_208.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_212.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_216.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_220.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_224.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_228.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_232.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_236.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_240.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_244.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_248.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_252.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/vinay/face_260.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_104.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_124.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_132.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_136.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_140.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_144.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_148.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_152.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_156.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_160.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_164.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_168.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_172.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_176.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_180.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_184.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_188.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_192.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_196.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_200.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_204.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_208.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_212.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_232.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_248.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_252.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/faces/yuga/face_256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/neural/tensorflow" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/realtime.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/12227683_1236306563061943_3645097312109824203_n.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/FB_IMG_1504087198720.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/FB_IMG_1504087219720.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/IMG_20170111_193719.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/IMG_20170414_102418.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/IMG_20170913_230437.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/Snapchat-739518257.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/WIN_20171011_21_05_02_Pro.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/temp_faces/face_156.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/temp_faces/face_232.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/temp_faces/face_240.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/temp_faces/face_84.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_0.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_100.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_104.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_108.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_112.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_116.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_12.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_120.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_124.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_132.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_136.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_140.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_144.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_148.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_152.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_156.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_16.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_160.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_164.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_168.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_172.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_176.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_180.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_184.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_188.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_192.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_196.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_20.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_200.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_204.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_208.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_212.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_216.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_220.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_224.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_228.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_232.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_236.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_24.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_248.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_252.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_260.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_264.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_268.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_28.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_36.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_40.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_44.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_48.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_52.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_56.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_60.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_68.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_72.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_76.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_8.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_80.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_84.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_88.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_92.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/unknownfaces/face_96.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/temp_faces/keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
+      <change beforePath="$PROJECT_DIR$/templates/list.html" afterPath="$PROJECT_DIR$/templates/list.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -499,31 +38,11 @@
       <file leaf-file-name="attendance.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/attendance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="415">
+              <caret line="69" column="65" lean-forward="false" selection-start-line="69" selection-start-column="65" selection-end-line="69" selection-end-column="65" />
               <folding>
                 <element signature="e#0#98#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/404.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -541,7 +60,7 @@
       <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="630">
               <caret line="30" column="133" lean-forward="false" selection-start-line="30" selection-start-column="133" selection-end-line="30" selection-end-column="133" />
               <folding />
             </state>
@@ -558,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1050">
-              <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+            <state relative-caret-position="-42">
+              <caret line="58" column="73" lean-forward="false" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -571,7 +90,7 @@
       <file leaf-file-name="face_recognize.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/face_recognize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2457">
+            <state relative-caret-position="2289">
               <caret line="117" column="18" lean-forward="false" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -580,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="506">
+              <caret line="81" column="29" lean-forward="true" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -593,7 +112,7 @@
       <file leaf-file-name="upload.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/upload.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="546">
               <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
               <folding />
             </state>
@@ -629,7 +148,6 @@
         <option value="$PROJECT_DIR$/helper/db_populate.py" />
         <option value="$PROJECT_DIR$/face_recognize.py" />
         <option value="$PROJECT_DIR$/face_helper.py" />
-        <option value="$PROJECT_DIR$/templates/list.html" />
         <option value="$PROJECT_DIR$/templates/upload.html" />
         <option value="$PROJECT_DIR$/helper/attendance.py" />
         <option value="$PROJECT_DIR$/templates/500.html" />
@@ -638,6 +156,7 @@
         <option value="$PROJECT_DIR$/templates/register.html" />
         <option value="$PROJECT_DIR$/attendance.py" />
         <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/templates/list.html" />
       </list>
     </option>
   </component>
@@ -647,9 +166,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="147" />
-    <option name="y" value="41" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="157" />
+    <option name="y" value="32" />
     <option name="width" value="1603" />
     <option name="height" value="1048" />
   </component>
@@ -668,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -695,6 +213,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -934,13 +453,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="147" y="41" width="1857" height="1092" extended-state="6" />
+    <frame x="157" y="32" width="1603" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2981132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29756707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33053514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3304253" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1000,21 +519,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/realtime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/realtime.py" />
     <entry file="file://$PROJECT_DIR$/face_helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1470">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1054,21 +563,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/realtime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/realtime.py" />
     <entry file="file://$PROJECT_DIR$/face_helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1533">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1108,21 +607,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/realtime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/realtime.py" />
     <entry file="file://$PROJECT_DIR$/face_helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1470">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1144,14 +633,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/realtime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/realtime.py" />
     <entry file="file://$PROJECT_DIR$/face_recognize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -1166,9 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="10" column="77" lean-forward="false" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1201,32 +680,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/realtime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/realtime.py" />
     <entry file="file://$PROJECT_DIR$/face_helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-313451744/cv2/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/graphs/retrained_labels.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs/retrained_labels.txt" />
     <entry file="file://$PROJECT_DIR$/camera.py" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pymongo/collection.py" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pymongo/helpers.py" />
@@ -1253,27 +716,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/realtime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/realtime.py" />
     <entry file="file://$PROJECT_DIR$/face_helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/face_recognize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2457">
+        <state relative-caret-position="2289">
           <caret line="117" column="18" lean-forward="false" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -1281,19 +734,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/interface.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1301,23 +745,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/upload.html" />
     <entry file="file://$PROJECT_DIR$/helper/attendance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="133" lean-forward="false" selection-start-line="30" selection-start-column="133" selection-end-line="30" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1329,52 +795,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="30" column="133" lean-forward="false" selection-start-line="30" selection-start-column="133" selection-end-line="30" selection-end-column="133" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/attendance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="415">
+          <caret line="69" column="65" lean-forward="false" selection-start-line="69" selection-start-column="65" selection-end-line="69" selection-end-column="65" />
           <folding>
             <element signature="e#0#98#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1050">
-          <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+        <state relative-caret-position="-42">
+          <caret line="58" column="73" lean-forward="false" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="81" column="29" lean-forward="true" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
           <folding />
         </state>
       </provider>
