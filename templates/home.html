@@ -40,9 +40,16 @@
                                     <ul class="menu-horizontal text-left">
                                         <li> <a href="/submit">
                                         Upload Image</a> </li>
+                                        <li> <a href="/view_attendance">
+                                        View Attendance Records</a> </li>
+                                        {% if user_type == "admin" %}
+                                        <li> <a href="/timetable">
+                                        Modify Time Table</a> </li>
+                                        {% endif %}
                                     </ul>
                                 </div>
                             </div>
+
                             <div class="col-md-5 text-right text-left-xs text-left-sm">
                                 <div class="bar__module">
                                     <a class="btn btn--sm type--uppercase" href="/logout"> <span class="btn__text">

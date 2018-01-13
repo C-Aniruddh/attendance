@@ -30,25 +30,7 @@
             <section class="bg--dark">
                 <div class="container">
                     <div class="row">
-                        <!--<div class="masonry">
-                            <div class="masonry__container masonry--active">
 
-                                <!--<div class="col-sm-4 masonry__item">
-                                    <div class="card card-2 text-center">
-                                        <div class="card__top">
-                                            <a href="#"> <img alt="Image" src="/face_cdn/{{images[x]}}"> </a>
-                                        </div>
-                                        <div class="card__body">
-                                            <h4>Name here</h4> <span class="type--fade">{{ sap_ids[x] }}</span> </div>
-                                        <div class="card__bottom text-center">
-                                            <div class="card__action"> <span class="h6 type--uppercase">Mark Absent</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>-->
                         {% for x in saplist %}
                         <div class="col-sm-4">
                             <div class="feature feature-8"> <img alt="Image" src="/face_cdn/{{images[x]}}">
@@ -83,6 +65,27 @@
                     </div>
                 </div>
             </section>
+            <section class="bg--dark">
+                <div class="container">
+                  <div class="row">
+                      <div class="col-sm-12">
+                          <div class="cta cta-1 cta--horizontal boxed boxed--border text-center-xs">
+                              <div class="col-md-3 col-md-offset-1">
+                                  <h4>Mark attendance</h4>
+                              </div>
+                              <div class="col-md-4">
+                                  <p class="lead">Please check the list before marking</p>
+                              </div>
+                              <div class="col-md-4 text-center">
+                                  <a class="btn btn--primary type--uppercase" href="/mark"> <span class="btn__text">
+                              Mark</span> </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </section>
+
         </div>
         <script src="../static/js/jquery-3.1.1.min.js"></script>
         <script src="../static/js/parallax.js"></script>

@@ -24,7 +24,7 @@
                             <h1>Upload photo</h1>
                             <p class="lead"> The pixel neural API will automatically gather facial information and mark the attendance</p>
                             <a class="btn btn--primary type--uppercase" href="/"> <span class="btn__text">
-						Learn more</span> </a>
+						Go back</span> </a>
                         </div>
                         <div class="col-sm-6">
                             <div class="boxed boxed--lg bg--white boxed--border boxed-form">
@@ -33,6 +33,14 @@
                                 <form method=POST action="{{ url_for('submit') }}" role="form" enctype="multipart/form-data">
                                     <div class="row">
                                         <div class="col-xs-12"> <input type="file" name="image_upload" placeholder="Upload File"> </div>
+                                        <div class="col-xs-12">
+                                          <select name="class">
+                                            <option value="Default">Select a class</option>
+                                            {% for x in classlist %}
+                                            <option value="{{class_id[x]}}">{{class_degree[x]}} - {{class_spec[x]}} - {{class_year[x]}}</option>
+                                            {% endfor %}
+                                          </select>
+                                        </div>
                                         <div class="col-xs-12"> <button type="submit" class="btn btn--primary type--uppercase">Upload</button> </div>
                                         <div class="col-xs-12"> <span class="type--fine-print">This process will take some time<br></span> </div>
                                     </div>

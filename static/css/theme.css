@@ -7113,11 +7113,11 @@ label + div[class*='input-'] {
   right: 0;
   height: 100%;
   top: 0;
-  font-size: 30px;
+  font-size: 20px;
   content: '\2263';
   pointer-events: none;
-  padding: 0 13px;
-  border-left: 1px solid #ececec;
+  padding: 0 20px;
+  border-left: 0px solid #ececec;
   line-height: 31px;
 }
 .input-select:focus:after {
