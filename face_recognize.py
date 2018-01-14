@@ -112,7 +112,7 @@ class FaceRecognize:
                     person = le.inverse_transform(maxI)
                     confidence = predictions[maxI]
                     name = person.decode('utf-8')
-                    if confidence > 0.65 and name not in names:
+                    if confidence > 0.2 and name not in names:
                         names.append(name)
                         pics.append(os.path.basename(img))
                     if multiple:

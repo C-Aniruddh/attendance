@@ -62,7 +62,7 @@ class FaceHelper:
             print("Part 0: {}, Part 1: {} ...".format(shape.part(0),
                                                       shape.part(1)))
             # Save the new face
-            crop = mini[d.top():d.bottom(), d.left():d.right()]
+            crop = mini[d.top()-10:d.bottom()+10, d.left()-10:d.right()+10]
             if crop.shape[0] > 0 and crop.shape[1] > 0:
                 time = datetime.utcnow().strftime('%Y-%m-%d-%H-%M-%S-%f')[:-3]
                 print("Saving face.")
